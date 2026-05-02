@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+
+# Local transfer output
+transfer_report.json
+*_report.json
+
+# Go build/test output
+*.exe
+*.test
+*.out
+coverage.out
+dist/
+bin/
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
